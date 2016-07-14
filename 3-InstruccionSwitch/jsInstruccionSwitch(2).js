@@ -33,10 +33,6 @@ switch(mesDelAño)
 	   alert("Ya pasamos el frio, ahora calor");
 
 	break;
-
-
-
-
 }
 
 
