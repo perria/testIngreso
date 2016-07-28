@@ -81,6 +81,19 @@ while(legajo<1000||legajo>9999)
 }
 
 document.getElementById('Legajo').value=legajo;
+alert("Su numero de legajo es: "+legajo);
+
+var nacionalidad=prompt("Ingrese nacionalidad E para extranjero, A para argentino, N para nacionalizados");
+
+while(nacionalidad!=E || nacionalidad!=A || nacionalidad!=N)
+{
+	nacionalidad=prompt("Ingrese nacionalidad E para extranjero, A para argentino, N para nacionalizados");
+}
+
+document.getElementById('Nacionalidad').value=nacionalidad;
+alert("Usted es: "+nacionalidad);
+
+
 
 }
 
